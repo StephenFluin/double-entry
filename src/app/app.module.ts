@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CentsPipe } from './cents.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CentsPipe,
   ],
   imports: [
     BrowserModule
